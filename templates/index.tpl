@@ -9,7 +9,6 @@
   <header>
     <div class="siteIdentity">
       <img id="logo" src="{Config::URL_PREFIX}img/logo/logo-200.png">
-      <div class="tagline">{t}Dictionaries of the Romanian language{/t}</div>
     </div>
   </header>
 
