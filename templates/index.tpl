@@ -8,7 +8,7 @@
 {block "content"}
   <header>
     <div class="siteIdentity">
-      {$svgLogo}
+      <img id="logo" src="{Config::URL_PREFIX}img/logo/logo-200.png">
       <div class="tagline">{t}Dictionaries of the Romanian language{/t}</div>
     </div>
   </header>
@@ -24,6 +24,7 @@
         {/if}
       {/foreach}
     {/if}
+    {*
     <div class="col-md-12">
       <a
         class="btn btn-link customise-widgets float-end"
@@ -32,6 +33,7 @@
         {t}customize widgets{/t}
       </a>
     </div>
+    *}
   </section>
 
   <div class="website-statement mt-2 text-center">

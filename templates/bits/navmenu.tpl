@@ -7,7 +7,7 @@
         class="navbar-brand order-0"
         href="{Config::URL_PREFIX}"
         title="{cap}{t}home page{/t}{/cap}">
-        {$svgLogo}
+        <img id="logo" src="{Config::URL_PREFIX}img/logo/logo-200.png">
       </a>
     {/if}
 
@@ -18,137 +18,13 @@
     <div class="collapse navbar-collapse order-5 order-md-2" id="navMenu">
       <ul class="navbar-nav">
 
-        <li class="nav-item dropdown">
+        <li class="nav-item">
 
           <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false">
-            {cap}{t}about{/t}{/cap}
+            class="nav-link"
+            href="https://docs.doarcuvinte.ro/index.php/Doar_Cuvinte"
+            target="_blank">{cap}{t}about{/t}{/cap}
           </a>
-
-          <ul class="dropdown-menu">
-            <li>
-              <a
-                href="https://wiki.dexonline.ro/wiki/Informa%C8%9Bii"
-                class="dropdown-item"
-                target="_blank">
-                {cap}{t}information{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('simple/contact')}" class="dropdown-item">
-                {cap}{t}contact us{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="https://blog.dexonline.ro" class="dropdown-item">
-                {cap}{t}blog{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="/newsletter" class="dropdown-item">
-                  {cap}newsletter{/cap}
-              </a>
-            </li>
-          </ul>
-
-        </li>
-
-        <li class="nav-item dropdown">
-
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false">
-            {cap}{t}get involved{/t}{/cap}
-          </a>
-
-          <ul class="dropdown-menu">
-            <li>
-              <a
-                href="https://wiki.dexonline.ro/wiki/Cum_pute%C8%9Bi_ajuta"
-                class="dropdown-item">
-                {cap}{t}ways to help{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('user/top')}" class="dropdown-item">
-                {cap}{t}volunteer ranking{/t}{/cap}
-              </a>
-            </li>
-          </ul>
-
-        </li>
-
-        <li class="nav-item dropdown">
-
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false">
-            {cap}{t}resources{/t}{/cap}
-          </a>
-
-          <ul class="dropdown-menu">
-            <li>
-              <a
-                href="https://wiki.dexonline.ro/wiki/Abrevieri"
-                class="dropdown-item"
-                target="_blank">
-                {cap}{t}abbreviations table{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('article/list')}" class="dropdown-item">
-                {cap}{t}linguistics articles{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a
-                href="{Router::link('article/view')}/Ghid_de_exprimare_corect%C4%83"
-                class="dropdown-item">
-                {cap}{t}grammar guide{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('wotd/view')}" class="dropdown-item">
-                {cap}{t}word of the day{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('wotm/view')}" class="dropdown-item">
-                {cap}{t}word of the month{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('lexeme/random')}" class="dropdown-item">
-                {cap}{t}random words{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('games/scrabble')}" class="dropdown-item">
-                {cap}{t}Scrabble{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('simple/tools')}" class="dropdown-item">
-                {cap}{t}tools{/t}{/cap}
-              </a>
-            </li>
-            <li>
-              <a href="{Router::link('simple/links')}" class="dropdown-item">
-                {cap}{t}external links{/t}{/cap}
-              </a>
-            </li>
-          </ul>
-
         </li>
       </ul>
 
@@ -225,8 +101,8 @@
             </a>
           </li>
         {/if}
-
         {* user menu *}
+        {*
         <li class="nav-item dropdown">
 
           <a
@@ -309,16 +185,19 @@
             {/if}
           </ul>
         </li>
+        *}
       </ul>
 
     </div>
 
+    {*
     <a
       class="btn btn-warning ms-auto order-3"
       href="{Router::link('donation/donate')}">
       {include "bits/icon.tpl" i=credit_card}
       {cap}{t}donate{/t}{/cap}
     </a>
+    *}
 
     <button
       class="navbar-toggler order-4"

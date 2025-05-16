@@ -70,40 +70,40 @@ class Router {
     ],
 
     // auth
-    'auth/login' => [
-      'en_US.utf8' => 'login',
-      'ro_RO.utf8' => 'autentificare',
-    ],
-    'auth/logout' => [
-      'en_US.utf8' => 'logout',
-      'ro_RO.utf8' => 'deconectare',
-    ],
-    'auth/lostPassword' => [
-      'en_US.utf8' => 'lost-password',
-      'ro_RO.utf8' => 'parola-uitata',
-    ],
-    'auth/passwordRecovery' => [
-      'en_US.utf8' => 'password-recovery',
-      'ro_RO.utf8' => 'recuperare-parola',
-    ],
-    'auth/register' => [
-      'en_US.utf8' => 'register',
-      'ro_RO.utf8' => 'inregistrare',
-    ],
+    // 'auth/login' => [
+    //   'en_US.utf8' => 'login',
+    //   'ro_RO.utf8' => 'autentificare',
+    // ],
+    // 'auth/logout' => [
+    //   'en_US.utf8' => 'logout',
+    //   'ro_RO.utf8' => 'deconectare',
+    // ],
+    // 'auth/lostPassword' => [
+    //   'en_US.utf8' => 'lost-password',
+    //   'ro_RO.utf8' => 'parola-uitata',
+    // ],
+    // 'auth/passwordRecovery' => [
+    //   'en_US.utf8' => 'password-recovery',
+    //   'ro_RO.utf8' => 'recuperare-parola',
+    // ],
+    // 'auth/register' => [
+    //   'en_US.utf8' => 'register',
+    //   'ro_RO.utf8' => 'inregistrare',
+    // ],
 
     // WotD artists
-    'artist/assign' => [
-      'en_US.utf8' => 'assign-artists',
-      'ro_RO.utf8' => 'alocare-autori',
-    ],
-    'artist/edit' => [
-      'en_US.utf8' => 'edit-artist',
-      'ro_RO.utf8' => 'editare-autor',
-    ],
-    'artist/list' => [
-      'en_US.utf8' => 'artists',
-      'ro_RO.utf8' => 'autori-imagini',
-    ],
+    // 'artist/assign' => [
+    //   'en_US.utf8' => 'assign-artists',
+    //   'ro_RO.utf8' => 'alocare-autori',
+    // ],
+    // 'artist/edit' => [
+    //   'en_US.utf8' => 'edit-artist',
+    //   'ro_RO.utf8' => 'editare-autor',
+    // ],
+    // 'artist/list' => [
+    //   'en_US.utf8' => 'artists',
+    //   'ro_RO.utf8' => 'autori-imagini',
+    // ],
 
     // definitions
     'definition/associateDE' => [
@@ -142,18 +142,18 @@ class Router {
     ],
 
     // donations
-    'donation/donate' => [
-      'en_US.utf8' => 'donate',
-      'ro_RO.utf8' => 'doneaza',
-    ],
-    'donation/donateEP' => [
-      'en_US.utf8' => 'donate-ep',
-      'ro_RO.utf8' => 'doneaza-ep',
-    ],
-    'donation/process' => [
-      'en_US.utf8' => 'process-donations',
-      'ro_RO.utf8' => 'proceseaza-donatii',
-    ],
+    // 'donation/donate' => [
+    //   'en_US.utf8' => 'donate',
+    //   'ro_RO.utf8' => 'doneaza',
+    // ],
+    // 'donation/donateEP' => [
+    //   'en_US.utf8' => 'donate-ep',
+    //   'ro_RO.utf8' => 'doneaza-ep',
+    // ],
+    // 'donation/process' => [
+    //   'en_US.utf8' => 'process-donations',
+    //   'ro_RO.utf8' => 'proceseaza-donatii',
+    // ],
 
     // entries
     'entry/easyStructure' => [
@@ -166,26 +166,26 @@ class Router {
     ],
 
     // games
-    'games/hangman' => [
-      'en_US.utf8' => 'hangman',
-      'ro_RO.utf8' => 'spanzuratoarea',
-    ],
-    'games/mill' => [
-      'en_US.utf8' => 'mill',
-      'ro_RO.utf8' => 'moara',
-    ],
-    'games/scrabble' => [
-      'en_US.utf8' => 'scrabble',
-      'ro_RO.utf8' => 'scrabble',
-    ],
-    'games/scrabbleLocDifferences' => [
-      'en_US.utf8' => 'scrabble-loc-differences',
-      'ro_RO.utf8' => 'scrabble-diferente-loc',
-    ],
-    'games/scramble' => [
-      'en_US.utf8' => 'scramble',
-      'ro_RO.utf8' => 'omleta',
-    ],
+    // 'games/hangman' => [
+    //   'en_US.utf8' => 'hangman',
+    //   'ro_RO.utf8' => 'spanzuratoarea',
+    // ],
+    // 'games/mill' => [
+    //   'en_US.utf8' => 'mill',
+    //   'ro_RO.utf8' => 'moara',
+    // ],
+    // 'games/scrabble' => [
+    //   'en_US.utf8' => 'scrabble',
+    //   'ro_RO.utf8' => 'scrabble',
+    // ],
+    // 'games/scrabbleLocDifferences' => [
+    //   'en_US.utf8' => 'scrabble-loc-differences',
+    //   'ro_RO.utf8' => 'scrabble-diferente-loc',
+    // ],
+    // 'games/scramble' => [
+    //   'en_US.utf8' => 'scramble',
+    //   'ro_RO.utf8' => 'omleta',
+    // ],
 
     // helpers
     'helpers/changeLocale' => [
@@ -275,38 +275,38 @@ class Router {
     ],
 
     // simple - pages that use (almost) no object models at all
-    'simple/contact' => [
-      'en_US.utf8' => 'contact',
-      'ro_RO.utf8' => 'contact',
-    ],
-    'simple/newsletter' => [
-      'en_US.utf8' => 'newsletter',
-      'ro_RO.utf8' => 'newsletter',
-    ],
-    'simple/license' => [
-      'en_US.utf8' => 'license',
-      'ro_RO.utf8' => 'licenta',
-    ],
-    'simple/links' => [
-      'en_US.utf8' => 'links',
-      'ro_RO.utf8' => 'legaturi',
-    ],
-    'simple/tools' => [
-      'en_US.utf8' => 'tools',
-      'ro_RO.utf8' => 'unelte',
-    ],
+    // 'simple/contact' => [
+    //   'en_US.utf8' => 'contact',
+    //   'ro_RO.utf8' => 'contact',
+    // ],
+    // 'simple/newsletter' => [
+    //   'en_US.utf8' => 'newsletter',
+    //   'ro_RO.utf8' => 'newsletter',
+    // ],
+    // 'simple/license' => [
+    //   'en_US.utf8' => 'license',
+    //   'ro_RO.utf8' => 'licenta',
+    // ],
+    // 'simple/links' => [
+    //   'en_US.utf8' => 'links',
+    //   'ro_RO.utf8' => 'legaturi',
+    // ],
+    // 'simple/tools' => [
+    //   'en_US.utf8' => 'tools',
+    //   'ro_RO.utf8' => 'unelte',
+    // ],
     'simple/original' => [
       'en_US.utf8' => 'original',
       'ro_RO.utf8' => 'original',
     ],
-    'simple/polls' => [
-      'en_US.utf8' => 'polls',
-      'ro_RO.utf8' => 'sondaje',
-    ],
-    'simple/wood' => [
-      'en_US.utf8' => 'wood',
-      'ro_RO.utf8' => 'limba-de-lemn',
-    ],
+    // 'simple/polls' => [
+    //   'en_US.utf8' => 'polls',
+    //   'ro_RO.utf8' => 'sondaje',
+    // ],
+    // 'simple/wood' => [
+    //   'en_US.utf8' => 'wood',
+    //   'ro_RO.utf8' => 'limba-de-lemn',
+    // ],
     // sources
     'source/edit' => [
       'en_US.utf8' => 'edit-source',
@@ -348,22 +348,22 @@ class Router {
     ],
 
     // users
-    'user/editAvatar' => [
-      'en_US.utf8' => 'edit-avatar',
-      'ro_RO.utf8' => 'editare-avatar',
-    ],
-    'user/list' => [
-      'en_US.utf8' => 'moderators',
-      'ro_RO.utf8' => 'moderatori',
-    ],
-    'user/preferences' => [
-      'en_US.utf8' => 'preferences',
-      'ro_RO.utf8' => 'preferinte',
-    ],
-    'user/saveAvatar' => [
-      'en_US.utf8' => 'save-avatar',
-      'ro_RO.utf8' => 'salvare-avatar',
-    ],
+    // 'user/editAvatar' => [
+    //   'en_US.utf8' => 'edit-avatar',
+    //   'ro_RO.utf8' => 'editare-avatar',
+    // ],
+    // 'user/list' => [
+    //   'en_US.utf8' => 'moderators',
+    //   'ro_RO.utf8' => 'moderatori',
+    // ],
+    // 'user/preferences' => [
+    //   'en_US.utf8' => 'preferences',
+    //   'ro_RO.utf8' => 'preferinte',
+    // ],
+    // 'user/saveAvatar' => [
+    //   'en_US.utf8' => 'save-avatar',
+    //   'ro_RO.utf8' => 'salvare-avatar',
+    // ],
     'user/top' => [
       'en_US.utf8' => 'top',
     ],

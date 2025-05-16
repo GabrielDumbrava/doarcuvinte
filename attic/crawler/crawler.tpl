@@ -47,7 +47,7 @@
 			</div>
 		</div>
 
-		<img id="logo" src="../img/logo/logo-og.png">
+		<img id="logo" src="../img/logo/logo-dc.png">
 
 	</body>
 </html>

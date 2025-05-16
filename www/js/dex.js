@@ -664,6 +664,8 @@ function genereazaDiscurs(mat){
 }
 
 /*** START call for poll ***/
+/*** We leave this code here for posterity. Just as a reminder. ***/
+/* 
 function pollModalCreate() {
   sessionStorage.setItem('pollModal', 1);
   var modalDiv = document.createElement('div');
@@ -700,6 +702,8 @@ setTimeout(function() {
     pollModalCreate();
   }
 }, 500);
+
+*/
 
 /*** END call for poll ***/
 
